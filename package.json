@@ -1,0 +1,24 @@
+{
+  "name": "@pictogrammers/memory",
+  "version": "1.0.0",
+  "description": "Memory Icons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preview": "node scripts/generate-preview.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pictogrammers/Memory.git"
+  },
+  "keywords": [
+    "Sharp Memory Display",
+    "Icons"
+  ],
+  "author": "Austin Andrews",
+  "license": "https://github.com/Pictogrammers/Memory/blob/main/LICENSE",
+  "bugs": {
+    "url": "https://github.com/Pictogrammers/Memory/issues"
+  },
+  "homepage": "https://github.com/Pictogrammers/Memory#readme"
+}
