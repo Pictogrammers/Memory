@@ -1,6 +1,6 @@
 # Memory Icons
 
-The Memory icon set contains 22x22 pixelated icons. Ideally for the Sharp Memory 2.7" Display.
+The Memory icon set contains 22x22 pixelated icons. Ideal for the Sharp Memory 2.7" Display.
 
 ![Preview](assets/preview.svg)
 
