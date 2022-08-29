@@ -1,6 +1,6 @@
 # Playdate Instructions
 
-The Playdate console uses the Sharp Memory 2.7" display.
+The [Playdate](https://play.date/) console uses the [Sharp Memory Display 2.7"](https://www.adafruit.com/product/4694).
 
 - [memory-table-22-22.png](./memory-table-22-22.png) - Sprite map of all icons
 - See Lua or C mappings with example code.
