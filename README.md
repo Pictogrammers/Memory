@@ -8,7 +8,7 @@ The Memory icon set contains 22x22 pixelated icons. Ideal for the Sharp Memory 2
 
 ### Moddable SDK
 
-[View usage instructions for Moddable SDK](moddable)
+[View the usage instructions for the Moddable SDK](moddable)
 
 ### Playdate
 
