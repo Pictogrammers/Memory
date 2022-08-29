@@ -5,6 +5,8 @@ The Playdate console uses the Sharp Memory 2.7" display.
 - [memory-table-22-22.png](./memory-table-22-22.png) - Sprite map of all icons
 - See Lua or C mappings with example code.
 
+![Playdate Example](../assets/playdate-random.gif)
+
 > **Why would I include the entire sprite map if I only need a few icons?**
 >
 > Ease of developer use. The sprite map is small due to the monochrome color pallet. Each icon is read off flash storage as neccessary using little resources.
