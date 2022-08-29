@@ -18,6 +18,14 @@ Copy the two files in this folder to your project.
 - `icon.lua` to `source/icon.lua`
 - `memory-table-22-22.png` to `source/images/memory-table-22-22.png`
 
+Currently the icon class defines:
+
+- `local icon1 = Icon(x, y, iconIndex)`
+- `icon1:setIcon(iconIndex)`
+- Inherits Sprite so has all functions
+  - `icon1:moveTo(x, y)`
+- `IconAlert`, `IconAccount`, etc...
+
 ```lua
 import "CoreLibs/object"
 import "CoreLibs/graphics"
