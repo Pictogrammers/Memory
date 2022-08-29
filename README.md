@@ -4,6 +4,12 @@ The Memory icon set contains 22x22 pixelated icons. Ideal for the Sharp Memory 2
 
 ![Preview](assets/preview.svg)
 
+## Usage
+
+### Playdate
+
+[View the Playdate Docs](playdate)
+
 ## Contributions
 
 Create an issue instead of a Pull Request.
@@ -17,3 +23,8 @@ Create an issue instead of a Pull Request.
 
 1. Create an issue with the name of the icon.
 1. Attach an image of the icon.
+
+## Development
+
+- `npm run preview` - Generates `assets/preview.svg`
+- `npm run playdate` - Generates Playdate files.
