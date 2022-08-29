@@ -12,8 +12,8 @@ const columns = Math.ceil(Math.sqrt(icons.length));
 
 // Playdate files
 const imageFile = 'memory-table-22-22.png';
-const luaFile = 'icons.lua';
-const cFile = 'icons.c';
+const luaFile = 'icon.lua';
+const cFile = 'icon.c';
 
 // Render all SVG's to a image
 const image = createCanvas(columns * 22, columns * 22);
