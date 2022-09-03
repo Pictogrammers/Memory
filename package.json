@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "preview": "node scripts/generate-preview.js",
-    "playdate": "node scripts/generate-playdate.js"
+    "playdate": "node scripts/generate-playdate.js",
+    "moddable": "node scripts/generate-moddable.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,8 @@
   "homepage": "https://github.com/Pictogrammers/Memory#readme",
   "dependencies": {
     "@napi-rs/canvas": "^0.1.29",
+    "bmp-js": "^0.1.0",
+    "jimp": "^0.16.1",
     "pureimage": "^0.3.14"
   }
 }
