@@ -11,6 +11,19 @@ Coming soon.
 
 ```json
 // manifest.json
+{
+    "include": [
+		"$(MODDABLE)/examples/manifest_base.json",
+		"$(MODDABLE)/examples/manifest_typings.json",
+		"$(MODDABLE)/examples/manifest_commodetto.json",
+		"$(MODDABLE)/modules/files/resourceiterator/manifest.json"
+	],
+    "resources": {
+		"*": [
+			"./assets/memory",
+		]
+	},
+}
 ```
 
 ```js

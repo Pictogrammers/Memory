@@ -17,6 +17,7 @@ const rows = Math.ceil(icons.length / columns);
 
 // Playdate files
 const imageFile = 'memory.bmp';
+const tsFile = 'icons.ts';
 const jsFile = 'icons.js';
 
 // Render all SVG's to a image
@@ -46,7 +47,7 @@ image.encode('png').then((pngData) => {
             if (err) throw err;
             var bmpData = bmpJs.decode(data);
             const bit1 = bit1Encoder(bmpData, 0);
-            fs.writeFileSync(path.join(__dirname, '..', 'moddable', `memory.bmp`), bit1.data);
+            fs.writeFileSync(path.join(__dirname, '..', 'moddable', imageFile), bit1.data);
           });
       });
 });
@@ -70,7 +71,11 @@ import parseBMP from "commodetto/parseBMP";
 const icons22 = parseBMP(new Resource("./assets/memory.bmp"));
 const SIZE_22 = 22;
 
-${jsList.join('\n')}`;
+${jsList.join('\n')}
+`;
 
 const jsFilePath = path.join(__dirname, '..', 'moddable', jsFile);
 fs.writeFileSync(jsFilePath, jsScript);
+
+const tsFilePath = path.join(__dirname, '..', 'moddable', tsFile);
+fs.writeFileSync(tsFilePath, jsScript);
