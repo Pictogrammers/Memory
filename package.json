@@ -1,8 +1,10 @@
 {
-  "name": "@pictogrammers/memory",
-  "version": "1.0.0",
+  "name": "@pictogrammers/memory-workspace",
+  "private": true,
   "description": "Memory Icons",
-  "main": "index.js",
+  "workspaces": [
+      "packages/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "preview": "node scripts/generate-preview.js",
