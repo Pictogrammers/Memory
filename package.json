@@ -7,9 +7,12 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run preview && npm run playdate && npm run moddable && npm run memory-svg npm run memory-js",
     "preview": "node scripts/generate-preview.js",
     "playdate": "node scripts/generate-playdate.js",
-    "moddable": "node scripts/generate-moddable.js"
+    "moddable": "node scripts/generate-moddable.js",
+    "memory-svg": "node scripts/generate-svg.js",
+    "memory-js": "node scripts/generate-js.js"
   },
   "repository": {
     "type": "git",
