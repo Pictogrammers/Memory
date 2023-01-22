@@ -11,7 +11,7 @@ function getIcons() {
         const data = svg.match(' d="([^"]+)"')[1];
         icons.push({
             name: file.name.replace('.svg', ''),
-            path: data
+            path: data.replace(/,/g, ' ')
         });
     }
     dir.closeSync();

@@ -6,7 +6,6 @@ const { getIcons } = require('./utils');
 
 const icons = getIcons();
 
-// Playdate files
 const tsFile = 'icons.ts';
 const jsFile = 'icons.js';
 
@@ -34,7 +33,7 @@ fs.writeFileSync(tsFilePath, jsScript);
 const inPackFile = path.join(__dirname, '..', 'package.json');
 const inPack = JSON.parse(fs.readFileSync(inPackFile));
 const version = inPack.version;
-const outPackFile = path.join(__dirname, '..', 'packages', 'memory-js', 'package.json');
+const outPackFile = path.join(__dirname, '..', 'packages', 'memory', 'package.json');
 const outPack = JSON.parse(fs.readFileSync(outPackFile));
 outPack.version = version;
 fs.writeFileSync(outPackFile, JSON.stringify(outPack, null, 4));
