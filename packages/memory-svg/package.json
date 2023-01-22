@@ -18,7 +18,7 @@
         "Playdate"
     ],
     "author": "Austin Andrews (Templarian)",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "bugs": {
         "url": "https://github.com/Pictogrammers/Memory/issues"
     },
