@@ -1,0 +1,27 @@
+name: Report a Bug 🐛
+description: Report an issue with the website, an icon, or one of our first-party libraries.
+labels: [Bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        *Make sure you [searched all issues](https://github.com/Pictogrammers/Memory/issues?q=is%3Aissue) before submitting your bug report!*
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where are you experiencing this bug?
+      options:
+        - pictogrammers.com
+        - A specific icon glyph
+        - "@pictogrammers/memory"
+        - "@pictogrammers/memory-svg"
+        - Somewhere else
+    validations:
+      required: true
+  - type: textarea
+    id: bug
+    attributes:
+      label: What is the issue you are experiencing?
+      description: Please provide as much detail as possible, including reproduction steps if applicable.
+    validations:
+      required: true

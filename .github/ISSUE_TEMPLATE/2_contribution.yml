@@ -1,0 +1,36 @@
+name: Contribute an Icon ➕
+description: Contribute a new icon to the library.
+labels: [Icon Request, Contribution]
+body:
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: "Before submitting a new icon contribution, please confirm the following:"
+      options:
+        - label: I have [searched all issues](https://github.com/Pictogrammers/Memory/issues?q=is%3Aissue) to make sure there isn't a request for this icon.
+          required: true
+        - label: I have [searched the current library](https://pictogrammers.com/library/memory) to make sure the icon doesn't already exist.
+          required: true
+  - type: textarea
+    id: usage
+    attributes:
+      label: Tell us about your contribution.
+      description: What led you to create this icon? Tell us how you would use it.
+    validations:
+      required: true
+  - type: textarea
+    id: preview
+    attributes:
+      label: Share a preview of your contribution.
+      description: Generate a preview of your icon using our [preview generator](https://pictogrammers.com/tools/github/). Your icon *must* be combined down to a single path to generate a preview.
+      placeholder: Paste the generated preview of your icon here.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Upload the icon source.
+      description: Zip up the SVG source files for your icon(s) and upload it here. Your SVGs should only contain the single path used to generate your preview.
+      placeholder: Upload your ZIP file here.
+    validations:
+      required: true
