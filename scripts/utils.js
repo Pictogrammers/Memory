@@ -45,13 +45,11 @@ exports.lowerCamelCase = lowerCamelCase;
 
 function emptyDirSync(directory) {
 
-    fs.readdir(directory, (err, files) => {
+    fs.readdirSync(directory, (err, files) => {
         if (err) throw err;
 
         for (const file of files) {
-            fs.unlink(path.join(directory, file), (err) => {
-                if (err) throw err;
-            });
+            fs.unlinkSync(path.join(directory, file));
         }
     });
 }
