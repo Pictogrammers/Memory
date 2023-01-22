@@ -1,13 +1,14 @@
 {
   "name": "@pictogrammers/memory-workspace",
   "private": true,
+  "version": "1.1.0",
   "description": "Memory Icons",
   "workspaces": [
       "packages/*"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run preview && npm run playdate && npm run moddable && npm run memory-svg npm run memory-js",
+    "build": "npm run preview && npm run playdate && npm run moddable && npm run memory-svg && npm run memory-js",
     "preview": "node scripts/generate-preview.js",
     "playdate": "node scripts/generate-playdate.js",
     "moddable": "node scripts/generate-moddable.js",

@@ -52,7 +52,7 @@ image.encode('png').then((pngData) => {
       });
 });
 
-// Write Lua File
+// Write JS / TS files
 function camelCase(str) {
     return str
         .split('-')

@@ -20,12 +20,50 @@ function getIcons() {
 
 exports.getIcons = getIcons;
 
+function camelCase(str) {
+    return str
+        .split('-')
+        .map((a) => a.charAt(0).toUpperCase() + a.slice(1))
+        .join('');
+}
+
+exports.camelCase = camelCase;
+
+function lowerCamelCase(str) {
+    return str
+        .split('-')
+        .map((a, i) => {
+            if (i === 0) {
+                return a;
+            }
+            return a.charAt(0).toUpperCase() + a.slice(1)
+        })
+        .join('');
+}
+
+exports.lowerCamelCase = lowerCamelCase;
+
+function emptyDirSync(directory) {
+
+    fs.readdir(directory, (err, files) => {
+        if (err) throw err;
+
+        for (const file of files) {
+            fs.unlink(path.join(directory, file), (err) => {
+                if (err) throw err;
+            });
+        }
+    });
+}
+
+exports.emptyDirSync = emptyDirSync;
+
 // Copied from `image-to-bmp`
 
 /**
  * this is copied from bmp-js
  */
- function BmpEncoder(imgData) {
+function BmpEncoder(imgData) {
     this.buffer = imgData.data;
     this.width = imgData.width;
     this.height = imgData.height;

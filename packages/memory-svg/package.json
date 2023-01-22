@@ -4,24 +4,23 @@
     "description": "Memory Icon Set; ideal for use with Sharp Memory Display 2.7",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Pictogrammers/Memory.git"
+        "type": "git",
+        "url": "git+https://github.com/Pictogrammers/Memory.git"
     },
     "keywords": [
-      "Icons",
-      "Pixel",
-      "Pixel Art",
-      "Sharp Memory Display",
-      "Playdate"
+        "Icons",
+        "Pixel",
+        "Pixel Art",
+        "Sharp Memory Display",
+        "Playdate"
     ],
     "author": "Austin Andrews (Templarian)",
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/Pictogrammers/Memory/issues"
+        "url": "https://github.com/Pictogrammers/Memory/issues"
     },
     "homepage": "https://github.com/Pictogrammers/Memory#readme"
-  }
-  
+}
