@@ -11,7 +11,7 @@
     "fontWeight": "normal",
     "website": "Pictogrammers.com",
     "npmFont": "@pictogramers\/memory-font",
-    "npmJS": "@pictogramers\/memory-js",
+    "npmJS": "@pictogramers\/memory",
     "npmSVG": "@pictogramers\/memory-svg",
     "color": {
         "header": "2196F3",
